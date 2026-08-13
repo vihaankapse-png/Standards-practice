@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Standards Practice</title>
+    <title>State Standards Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -9,9 +9,31 @@
 
     <h1>State Standards Practice</h1>
 
-    <p>Welcome to the website!</p>
+    <p>Choose a class to begin practicing.</p>
 
-    <button>Start Practicing</button>
+    <div class="classes">
+
+        <button onclick="selectClass('Algebra I')">
+            Algebra I
+        </button>
+
+        <button onclick="selectClass('Biology')">
+            Biology
+        </button>
+
+        <button onclick="selectClass('English I')">
+            English I
+        </button>
+
+        <button onclick="selectClass('U.S. History')">
+            U.S. History
+        </button>
+
+    </div>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

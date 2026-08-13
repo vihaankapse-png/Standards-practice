@@ -25,3 +25,16 @@ button {
 .classes button {
     width: 250px;
 }
+.standards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.standards button {
+    width: 300px;
+}
+
+

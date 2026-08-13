@@ -14,3 +14,14 @@ button {
     font-size: 18px;
     cursor: pointer;
 }
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.classes button {
+    width: 250px;
+}
